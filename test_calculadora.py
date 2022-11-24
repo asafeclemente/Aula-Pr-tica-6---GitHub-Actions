@@ -10,6 +10,12 @@ def test_soma():
 
     assert resultado == 1
 
+def test_subtracao_de_numero_negativo():
+
+    resultado = subtrair_dois_numeros(0,-1)
+
+    assert resultado == 1
+
 def test_soma_e_subtracao_opostas():
 
     primeiro_numero = somar_dois_numeros(1,1)
